@@ -71,6 +71,9 @@ df.info()
 
 df.to_csv(“Marley.csv", index=False, header=True) #from dataframe into a file
 
+#List only salary and sex
+df[[‘salary' , 'sex' ] ]
+
 
 ----
 
