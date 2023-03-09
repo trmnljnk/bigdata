@@ -118,7 +118,11 @@ df[df.notnull().any(axis=1)].head()
 
 df.loc[lambda df: df['Type'] == 'fill' ]
 
+# Remove columns where name is 'BidPrice' and 'BidQty' etc.
+df = df.drop(['BidPrice', 'BidQty', 'AskPrice', 'AskQty', 'Venue', 'DisplayVenue', 'SenderSubID', 'TargetSubID', 'ManualOrder'], axis=1)
 
+
+df.to_csv("test.csv", index=False, header=True) #from dataframe into a file
 
 ----
 
