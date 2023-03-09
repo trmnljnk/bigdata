@@ -21,3 +21,21 @@ pip install pandas
 ```
 pip install jupyterlab
 ```
+
+=====
+
+```
+import pandas as pd
+
+filename = "validus_tas_crypto_ETH-31MAR23.csv"
+#filename = "trades_20230308_164347.csv"
+
+df = pd.read_csv(filename)
+
+df.head(10)
+
+df.shape
+
+df.info()
+
+```
