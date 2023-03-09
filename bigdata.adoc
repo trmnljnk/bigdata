@@ -1,0 +1,23 @@
+New enviroment for Big Data project.
+
+Inside new directory execute this.
+
+```
+python3 -m venv venv
+```
+
+```
+source newdirectory/bin/activate
+```
+
+```
+pip list
+```
+
+```
+pip install pandas
+```
+
+```
+pip install jupyterlab
+```
