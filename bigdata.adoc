@@ -69,6 +69,12 @@ df.shape
 
 df.info()
 
+df.to_csv(“Marley.csv", index=False, header=True) #from dataframe into a file
+
+
 ----
+
+
+
 
 https://medium.com/analytics-vidhya/pandas-tutorial-indexing-slicing-date-times-e02d230ff485
