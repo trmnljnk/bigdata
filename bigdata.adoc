@@ -38,6 +38,14 @@ pip install pandas
 pip install jupyterlab
 ----
 
+Start Jupyter notebook
+
+[,console]
+----
+$ jupyter notebok
+----
+
+
 =====
 
 [,console]
