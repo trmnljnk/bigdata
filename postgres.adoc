@@ -14,3 +14,14 @@ Type "help" for help.
 CREATE DATABASE
 0x01=# 
 ----
+
+[,console]
+----
+0x01=#  \l
+----
+
+Quit
+[,console]
+----
+0x01=#  \q
+----
