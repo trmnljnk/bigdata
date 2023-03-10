@@ -1,0 +1,16 @@
+Create new database command line.
+
+[,console]
+----
+/Applications/Postgres.app/Contents/Versions/15/bin/psql -p5432
+----
+
+[,console]
+----
+psql (15.2)
+Type "help" for help.
+
+0x01=# create database sample_db;
+CREATE DATABASE
+0x01=# 
+----
