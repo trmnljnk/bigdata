@@ -2,3 +2,6 @@ pandas
 jupyterlab
 plotly
 matplotlib
+openpyxl
+xlwt
+xlrd
